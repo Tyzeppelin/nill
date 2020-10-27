@@ -1,0 +1,10 @@
+[package]
+name = "nill"
+version = "0.1.0"
+authors = ["François Boschet <francois@boschet.io>"]
+
+#[dependencies]
+#regex = "0.2"
+
+[workspace]
+exclude = ["old"]
