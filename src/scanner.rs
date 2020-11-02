@@ -47,7 +47,7 @@ impl Scanner {
         let c: char = self.advance();
         match c {
             '(' => self.add_non_lit_token(TokenType::LeftParen),
-            ')' => self.add_non_lit_token(TokenType::RigtParen),
+            ')' => self.add_non_lit_token(TokenType::RightParen),
             '{' => self.add_non_lit_token(TokenType::LeftBrace),
             '}' => self.add_non_lit_token(TokenType::RightBrace),
             ',' => self.add_non_lit_token(TokenType::Comma),
